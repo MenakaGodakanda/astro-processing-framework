@@ -18,7 +18,7 @@ This project is a scalable computing framework for processing astronomical datas
 - Handle Missing Values
 - Normalize Data
 
-### 3. Parallel Processing (`main.py`)
+### 3. Parallel Processing (`main.py` and `parallel_processing.py`)
 - Use Dask for Scaling
 - Process Data in Chunks
 - Save as CSV (`output/processed_data.csv`)
