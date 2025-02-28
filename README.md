@@ -72,10 +72,11 @@ pip install dask[complete] astropy pandas numpy matplotlib
 ```
 python3 src/main.py
 ```
+![Screenshot 2025-02-28 161158](https://github.com/user-attachments/assets/3224598d-bc19-4572-93cd-42b826b57eae)
 
 ### Expected Output:
 - A histogram plot of the processed dataset will be displayed.
-  - **X-axis**: Column values (e.g., flux, magnitude, or intensity).
+  - **X-axis**: Column values (e.g., wavelength, flux, magnitude, or intensity).
   - **Y-axis**: Frequency (number of occurrences).
   - A bell-shaped or skewed distribution based on the dataset.
 
@@ -93,7 +94,6 @@ astro-processing-framework/
 │   │── data_loader.py        # Loads and parses FITS files
 │   │── processing.py         # Cleans and normalizes data
 │   │── visualization.py      # Generates plots
-│── requirements.txt          # Dependencies
 │── README.md                 # Project documentation
 ```
 
